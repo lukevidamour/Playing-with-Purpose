@@ -334,7 +334,10 @@ main:focus { outline: none; }
 .who__body { display: grid; gap: 3rem; margin-top: clamp(3rem, 6vw, 5rem); }
 .who__lead { margin: 0; max-width: 30em; font-size: clamp(1.125rem, 1.02rem + .35vw, 1.3125rem); line-height: 1.6; color: var(--green); }
 .audience { list-style: none; margin: 0; padding: 0; display: grid; gap: 2rem var(--gutter); }
-.audience li { padding-top: 1.25rem; border-top: 1px solid var(--green); }
+.audience li { padding-top: 1.5rem; border-top: 1px solid var(--green); }
+.audience__icon { display: block; width: 2.75rem; height: 2.75rem; margin-bottom: 1.1rem; }
+.audience__icon .i-line { fill: var(--green); }
+.audience__icon .i-tint { fill: var(--gold); fill-opacity: .5; }
 .audience__title { margin-bottom: .4rem; font: 700 1.0625rem/1.3 var(--font-sans); color: var(--green); }
 .audience p { margin: 0; font-size: .96875rem; line-height: 1.6; color: var(--ink-soft); }
 @media (min-width: 640px) { .audience { grid-template-columns: 1fr 1fr; } }
