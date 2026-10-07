@@ -1,0 +1,5 @@
+.DS_Store
+# Working files that are not part of the published site (left in place, not uploaded):
+assets/img/*-fresh-*.png
+assets/img/hero-cover-landscape-*.png
+assets/img/hero-video-start-frame-*.png

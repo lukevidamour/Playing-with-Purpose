@@ -1,0 +1,6 @@
+# PREVIEW: blocks search engines while the site is a draft for review.
+# At launch, replace "Disallow: /" with "Allow: /".
+User-agent: *
+Disallow: /
+
+Sitemap: https://lukevidamour.github.io/Playing-with-Purpose/sitemap.xml

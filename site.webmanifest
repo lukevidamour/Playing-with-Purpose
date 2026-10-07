@@ -1,0 +1,13 @@
+{
+  "name": "Playing with Purpose",
+  "short_name": "Playing with Purpose",
+  "description": "A twelve-session Christian course for footballers by Nigel Pascoe.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#F7F6F1",
+  "theme_color": "#16301F",
+  "icons": [
+    { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
