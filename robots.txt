@@ -3,4 +3,4 @@
 User-agent: *
 Disallow: /
 
-Sitemap: https://lukevidamour.github.io/Playing-with-Purpose/sitemap.xml
+Sitemap: https://playingwithpurpose.uk/sitemap.xml

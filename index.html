@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Playing with Purpose · A Christian football course by Nigel Pascoe</title>
   <meta name="description" content="Playing with Purpose is a twelve-session Christian course for footballers by Nigel Pascoe. It explores identity, purpose and faith through Scripture, honest conversation and practical steps on and off the pitch.">
-  <link rel="canonical" href="https://lukevidamour.github.io/Playing-with-Purpose/">
+  <link rel="canonical" href="https://playingwithpurpose.uk/">
   <meta name="theme-color" content="#16301F">
   <!-- PREVIEW: keeps the draft out of search results. Remove this line (and the Disallow in robots.txt) at launch. -->
   <meta name="robots" content="noindex, nofollow">
@@ -14,8 +14,8 @@
   <meta property="og:site_name" content="Playing with Purpose">
   <meta property="og:title" content="Playing with Purpose · Life, faith and football">
   <meta property="og:description" content="A twelve-session Christian course for footballers by Nigel Pascoe. Talk to Nigel about using it with your team or group.">
-  <meta property="og:url" content="https://lukevidamour.github.io/Playing-with-Purpose/">
-  <meta property="og:image" content="https://lukevidamour.github.io/Playing-with-Purpose/assets/img/social-card.jpg">
+  <meta property="og:url" content="https://playingwithpurpose.uk/">
+  <meta property="og:image" content="https://playingwithpurpose.uk/assets/img/social-card.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Playing with Purpose, a 12-session Christian course by Nigel Pascoe, shown beside the course book cover.">
@@ -28,14 +28,16 @@
   <link rel="manifest" href="site.webmanifest">
 
   <link rel="preload" href="assets/fonts/pwp-cover-display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/bebas-neue-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/poppins-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" as="image" type="image/webp" href="assets/img/hero-banner-1600.webp" imagesrcset="assets/img/hero-banner-960.webp 960w, assets/img/hero-banner-1600.webp 1600w, assets/img/hero-banner-2400.webp 2400w" imagesizes="100vw" media="(min-width: 768px)" fetchpriority="high">
+  <link rel="preload" as="image" type="image/webp" href="assets/img/hero-video-poster-1600.webp" imagesrcset="assets/img/hero-video-poster-960.webp 960w, assets/img/hero-video-poster-1600.webp 1600w, assets/img/hero-video-poster-1920.webp 1920w" imagesizes="100vw" media="(min-width: 768px) and (orientation: landscape)" fetchpriority="high">
+  <link rel="preload" as="image" type="image/webp" href="assets/img/hero-banner-1600.webp" imagesrcset="assets/img/hero-banner-960.webp 960w, assets/img/hero-banner-1600.webp 1600w, assets/img/hero-banner-2400.webp 2400w" imagesizes="100vw" media="(min-width: 768px) and (orientation: portrait)" fetchpriority="high">
   <link rel="preload" as="image" type="image/webp" href="assets/img/hero-cover-portrait-1054.webp" imagesrcset="assets/img/hero-cover-portrait-640.webp 640w, assets/img/hero-cover-portrait-1054.webp 1054w" imagesizes="100vw" media="(max-width: 767.98px)" fetchpriority="high">
-  <link rel="stylesheet" href="assets/css/site.css?v=10">
+  <link rel="stylesheet" href="assets/css/site.css?v=11">
   <script>document.documentElement.classList.add('js')</script>
   <script src="assets/js/vendor/lenis.min.js?v=1.3.26" defer></script>
-  <script src="assets/js/site.js?v=6" defer></script>
+  <script src="assets/js/site.js?v=7" defer></script>
 </head>
 <body class="page-home">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -71,12 +73,19 @@
     <!-- ============ 1. HERO ============ -->
     <section class="hero theme-dark" aria-labelledby="hero-title" data-hero>
       <div class="hero__media" data-hero-media>
-        <picture>
-          <source media="(max-width: 767.98px)" type="image/webp" srcset="assets/img/hero-cover-portrait-640.webp 640w, assets/img/hero-cover-portrait-1054.webp 1054w" sizes="100vw">
-          <source media="(max-width: 767.98px)" srcset="assets/img/hero-cover-portrait-640.jpg 640w, assets/img/hero-cover-portrait-1054.jpg 1054w" sizes="100vw">
-          <source type="image/webp" srcset="assets/img/hero-banner-960.webp 960w, assets/img/hero-banner-1600.webp 1600w, assets/img/hero-banner-2400.webp 2400w" sizes="100vw">
-          <img class="hero__img" src="assets/img/hero-banner-1600.jpg" srcset="assets/img/hero-banner-960.jpg 960w, assets/img/hero-banner-1600.jpg 1600w, assets/img/hero-banner-2400.jpg 2400w" sizes="100vw" width="2400" height="1200" alt="A footballer in a green number 10 shirt stands at the mouth of the tunnel, looking out at a floodlit stadium." fetchpriority="high" decoding="async">
-        </picture>
+        <div class="hero__frame">
+          <picture>
+            <source media="(max-width: 767.98px)" type="image/webp" srcset="assets/img/hero-cover-portrait-640.webp 640w, assets/img/hero-cover-portrait-1054.webp 1054w" sizes="100vw">
+            <source media="(max-width: 767.98px)" srcset="assets/img/hero-cover-portrait-640.jpg 640w, assets/img/hero-cover-portrait-1054.jpg 1054w" sizes="100vw">
+            <source media="(orientation: portrait)" type="image/webp" srcset="assets/img/hero-banner-960.webp 960w, assets/img/hero-banner-1600.webp 1600w, assets/img/hero-banner-2400.webp 2400w" sizes="100vw">
+            <source media="(orientation: portrait)" srcset="assets/img/hero-banner-960.jpg 960w, assets/img/hero-banner-1600.jpg 1600w, assets/img/hero-banner-2400.jpg 2400w" sizes="100vw">
+            <source type="image/webp" srcset="assets/img/hero-video-poster-960.webp 960w, assets/img/hero-video-poster-1600.webp 1600w, assets/img/hero-video-poster-1920.webp 1920w" sizes="100vw">
+            <img class="hero__img" src="assets/img/hero-video-poster-1600.jpg" srcset="assets/img/hero-video-poster-960.jpg 960w, assets/img/hero-video-poster-1600.jpg 1600w, assets/img/hero-video-poster-1920.jpg 1920w" sizes="100vw" width="1920" height="1080" alt="A footballer in a green number 10 shirt stands at the mouth of the tunnel, looking out at a floodlit stadium." fetchpriority="high" decoding="async">
+          </picture>
+          <!-- Landscape screens: the same scene, moving. Silent, loops, loads only after the page has, and is skipped
+               for reduced motion and Save-Data. Until it plays, or if it can't, the still frame above stays. -->
+          <video class="hero__video" muted playsinline loop preload="none" disablepictureinpicture aria-hidden="true" tabindex="-1" data-hero-video></video>
+        </div>
       </div>
       <div class="hero__inner wrap" data-hero-inner>
         <div class="hero__title">
@@ -96,6 +105,9 @@
         </div>
       </div>
       <a class="hero__scroll" href="#course" tabindex="-1" aria-hidden="true"><span></span></a>
+      <div class="hero__controls wrap">
+        <button class="hero__pause" type="button" data-hero-pause hidden aria-label="Pause the background video"><span class="hero__pause-icon" aria-hidden="true"></span></button>
+      </div>
     </section>
 
     <!-- ============ 2. THE COURSE ============ -->
@@ -134,10 +146,10 @@
         <p class="who__lead" data-reveal>For coaches, chaplains and leaders who want to help players connect their faith with the realities of football and life. Use the book to open meaningful conversations with the people you already gather, support and encourage.</p>
         <!-- Icons: Phosphor (light line + duotone accent), MIT licence: assets/LICENSES.md -->
         <ul class="audience" aria-label="Who the course is for" data-reveal-group>
-          <li><svg class="audience__icon" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path class="i-tint" d="M65.17,108.08l-33,25.34c-.1-1.8-.15-3.6-.15-5.42A95.61,95.61,0,0,1,53.23,67.78ZM46.92,179.42a96.12,96.12,0,0,0,57,41.52l-14.7-41.52Zm105.21,41.52a96.12,96.12,0,0,0,57-41.52H166.83ZM202.77,67.78l-11.94,40.3,33,25.34c.1-1.8.15-3.6.15-5.42A95.61,95.61,0,0,0,202.77,67.78Zm-38.52-28.7a96.34,96.34,0,0,0-72.5,0L128,64ZM152.72,160,168,115.5,128,88,88,115.5,103.28,160Z"/><path class="i-line" d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm77.67,147.42H169.89L159.41,159l13.29-38.72,17-5.51,27.94,21.43A89.38,89.38,0,0,1,205.67,173.42Zm-119.56,0H50.33A89.38,89.38,0,0,1,38.38,136.2l27.94-21.43,17,5.51L96.59,159ZM51,81.42l7.24,24.41-20,15.34A89.47,89.47,0,0,1,51,81.42ZM107.56,154,95.15,117.86,128,95.28l32.85,22.58L148.44,154Zm90.19-48.17L205,81.42a89.47,89.47,0,0,1,12.75,39.75Zm-1.66-36.62L186,103.35l-17,5.53-35-24V67.16l30.9-21.24A90.3,90.3,0,0,1,196.09,69.21ZM150.92,41,128,56.72,105.08,41a90.22,90.22,0,0,1,45.84,0ZM91.11,45.91,122,67.16V84.84l-35,24-17-5.53L59.91,69.21A90.4,90.4,0,0,1,91.11,45.91ZM58.75,185.42H84.93l9.19,26A90.37,90.37,0,0,1,58.75,185.42Zm49.68,30.43L95.88,180.39,106.34,166h43.32l10.46,14.39-12.55,35.46a90.14,90.14,0,0,1-39.14,0Zm53.45-4.48,9.19-26h26.18A90.37,90.37,0,0,1,161.88,211.37Z"/></svg><h3 class="audience__title">Players and teams</h3><p>Twelve conversations about identity, purpose and faith, worked through together.</p></li>
-          <li><svg class="audience__icon" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path class="i-tint" d="M104,188a28,28,0,1,1-28-28A28,28,0,0,1,104,188Z"/><path class="i-line" d="M76,154a34,34,0,1,0,34,34A34,34,0,0,0,76,154Zm0,56a22,22,0,1,1,22-22A22,22,0,0,1,76,210ZM43.76,107.76,59.52,92,43.76,76.24a6,6,0,0,1,8.48-8.48L68,83.52,83.76,67.76a6,6,0,0,1,8.48,8.48L76.48,92l15.76,15.76a6,6,0,1,1-8.48,8.48L68,100.48,52.24,116.24a6,6,0,0,1-8.48-8.48Zm184.48,96a6,6,0,1,1-8.48,8.48L204,196.48l-15.76,15.76a6,6,0,0,1-8.48-8.48L195.52,188l-15.76-15.76a6,6,0,0,1,8.48-8.48L204,179.52l15.76-15.76a6,6,0,0,1,8.48,8.48L212.48,188ZM182.55,112.3c-6,21.66-24.55,40.38-45.09,45.52A6.14,6.14,0,0,1,136,158a6,6,0,0,1-1.46-11.82c16.29-4.07,31.62-19.67,36.44-37.09,3.33-12,3.39-30.24-15.22-48.85L150,54.48V80a6,6,0,0,1-12,0V40a6,6,0,0,1,6-6h40a6,6,0,0,1,0,12H158.48l5.76,5.76C182,69.47,188.45,91,182.55,112.3Z"/></svg><h3 class="audience__title">Coaches and team leaders</h3><p>Questions, Scripture and challenges, with leader’s tips to guide honest discussion.</p></li>
-          <li><svg class="audience__icon" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path class="i-tint" d="M229.66,197,197,229.66a8,8,0,0,1-11.31,0l-18.35-18.35,44-44,18.35,18.35A8,8,0,0,1,229.66,197ZM26.34,185.66a8,8,0,0,0,0,11.31L59,229.66a8,8,0,0,0,11.31,0l18.35-18.35-44-44Z"/><path class="i-line" d="M233.9,181.42l-36.59-36.6L160.71,24A19.75,19.75,0,0,0,128,15.62,19.75,19.75,0,0,0,95.29,24L58.69,144.82,22.1,181.42a14,14,0,0,0,0,19.79L54.79,233.9a14,14,0,0,0,19.79,0l48.29-48.28a38,38,0,0,0,5.13-6.38,38,38,0,0,0,5.13,6.38l48.29,48.28a14,14,0,0,0,19.79,0l32.69-32.69a14,14,0,0,0,0-19.79Zm-167.8,44a2,2,0,0,1-2.83,0L30.58,192.73a2,2,0,0,1,0-2.83l14.11-14.1L80.2,211.31Zm48.28-48.29-25.69,25.7L53.17,167.31l15.07-15.07a6,6,0,0,0,1.5-2.5l37-122.22A7.78,7.78,0,0,1,122,29.78v129A25.83,25.83,0,0,1,114.38,177.13ZM134,158.75v-129a7.78,7.78,0,0,1,15.22-2.26l37,122.22a6,6,0,0,0,1.5,2.5l15.93,15.94-36.28,34.74-25.79-25.79A25.83,25.83,0,0,1,134,158.75Zm91.42,34-32.69,32.69a2,2,0,0,1-2.83,0l-14-14,36.29-34.74,13.24,13.23A2,2,0,0,1,225.42,192.73Z"/></svg><h3 class="audience__title">Chaplains</h3><p>Material for time set aside midweek, beyond the matchday routine.</p></li>
-          <li><svg class="audience__icon" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path class="i-tint" d="M224,152v64H184V128ZM32,216H72V128L32,152Z"/><path class="i-line" d="M227.09,146.86,190,124.6V104a6,6,0,0,0-3-5.21L134,68.52V46h18a6,6,0,0,0,0-12H134V16a6,6,0,0,0-12,0V34H104a6,6,0,0,0,0,12h18V68.52L69,98.79A6,6,0,0,0,66,104v20.6L28.91,146.86A6,6,0,0,0,26,152v64a6,6,0,0,0,6,6h80a6,6,0,0,0,6-6V168a10,10,0,0,1,20,0v48a6,6,0,0,0,6,6h80a6,6,0,0,0,6-6V152A6,6,0,0,0,227.09,146.86ZM38,155.4l28-16.8V210H38Zm90-9.4a22,22,0,0,0-22,22v42H78V107.48l50-28.57,50,28.57V210H150V168A22,22,0,0,0,128,146Zm90,64H190V138.6l28,16.8Z"/></svg><h3 class="audience__title">Church and youth groups</h3><p>Where football is already part of your group’s life, a focused way to explore faith through it.</p></li>
+          <li><svg class="icon-duo audience__icon" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path class="i-tint" d="M65.17,108.08l-33,25.34c-.1-1.8-.15-3.6-.15-5.42A95.61,95.61,0,0,1,53.23,67.78ZM46.92,179.42a96.12,96.12,0,0,0,57,41.52l-14.7-41.52Zm105.21,41.52a96.12,96.12,0,0,0,57-41.52H166.83ZM202.77,67.78l-11.94,40.3,33,25.34c.1-1.8.15-3.6.15-5.42A95.61,95.61,0,0,0,202.77,67.78Zm-38.52-28.7a96.34,96.34,0,0,0-72.5,0L128,64ZM152.72,160,168,115.5,128,88,88,115.5,103.28,160Z"/><path class="i-line" d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm77.67,147.42H169.89L159.41,159l13.29-38.72,17-5.51,27.94,21.43A89.38,89.38,0,0,1,205.67,173.42Zm-119.56,0H50.33A89.38,89.38,0,0,1,38.38,136.2l27.94-21.43,17,5.51L96.59,159ZM51,81.42l7.24,24.41-20,15.34A89.47,89.47,0,0,1,51,81.42ZM107.56,154,95.15,117.86,128,95.28l32.85,22.58L148.44,154Zm90.19-48.17L205,81.42a89.47,89.47,0,0,1,12.75,39.75Zm-1.66-36.62L186,103.35l-17,5.53-35-24V67.16l30.9-21.24A90.3,90.3,0,0,1,196.09,69.21ZM150.92,41,128,56.72,105.08,41a90.22,90.22,0,0,1,45.84,0ZM91.11,45.91,122,67.16V84.84l-35,24-17-5.53L59.91,69.21A90.4,90.4,0,0,1,91.11,45.91ZM58.75,185.42H84.93l9.19,26A90.37,90.37,0,0,1,58.75,185.42Zm49.68,30.43L95.88,180.39,106.34,166h43.32l10.46,14.39-12.55,35.46a90.14,90.14,0,0,1-39.14,0Zm53.45-4.48,9.19-26h26.18A90.37,90.37,0,0,1,161.88,211.37Z"/></svg><h3 class="audience__title">Players and teams</h3><p>Twelve conversations about identity, purpose and faith, worked through together.</p></li>
+          <li><svg class="icon-duo audience__icon" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path class="i-tint" d="M104,188a28,28,0,1,1-28-28A28,28,0,0,1,104,188Z"/><path class="i-line" d="M76,154a34,34,0,1,0,34,34A34,34,0,0,0,76,154Zm0,56a22,22,0,1,1,22-22A22,22,0,0,1,76,210ZM43.76,107.76,59.52,92,43.76,76.24a6,6,0,0,1,8.48-8.48L68,83.52,83.76,67.76a6,6,0,0,1,8.48,8.48L76.48,92l15.76,15.76a6,6,0,1,1-8.48,8.48L68,100.48,52.24,116.24a6,6,0,0,1-8.48-8.48Zm184.48,96a6,6,0,1,1-8.48,8.48L204,196.48l-15.76,15.76a6,6,0,0,1-8.48-8.48L195.52,188l-15.76-15.76a6,6,0,0,1,8.48-8.48L204,179.52l15.76-15.76a6,6,0,0,1,8.48,8.48L212.48,188ZM182.55,112.3c-6,21.66-24.55,40.38-45.09,45.52A6.14,6.14,0,0,1,136,158a6,6,0,0,1-1.46-11.82c16.29-4.07,31.62-19.67,36.44-37.09,3.33-12,3.39-30.24-15.22-48.85L150,54.48V80a6,6,0,0,1-12,0V40a6,6,0,0,1,6-6h40a6,6,0,0,1,0,12H158.48l5.76,5.76C182,69.47,188.45,91,182.55,112.3Z"/></svg><h3 class="audience__title">Coaches and team leaders</h3><p>Questions, Scripture and challenges, with leader’s tips to guide honest discussion.</p></li>
+          <li><svg class="icon-duo audience__icon" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path class="i-tint" d="M229.66,197,197,229.66a8,8,0,0,1-11.31,0l-18.35-18.35,44-44,18.35,18.35A8,8,0,0,1,229.66,197ZM26.34,185.66a8,8,0,0,0,0,11.31L59,229.66a8,8,0,0,0,11.31,0l18.35-18.35-44-44Z"/><path class="i-line" d="M233.9,181.42l-36.59-36.6L160.71,24A19.75,19.75,0,0,0,128,15.62,19.75,19.75,0,0,0,95.29,24L58.69,144.82,22.1,181.42a14,14,0,0,0,0,19.79L54.79,233.9a14,14,0,0,0,19.79,0l48.29-48.28a38,38,0,0,0,5.13-6.38,38,38,0,0,0,5.13,6.38l48.29,48.28a14,14,0,0,0,19.79,0l32.69-32.69a14,14,0,0,0,0-19.79Zm-167.8,44a2,2,0,0,1-2.83,0L30.58,192.73a2,2,0,0,1,0-2.83l14.11-14.1L80.2,211.31Zm48.28-48.29-25.69,25.7L53.17,167.31l15.07-15.07a6,6,0,0,0,1.5-2.5l37-122.22A7.78,7.78,0,0,1,122,29.78v129A25.83,25.83,0,0,1,114.38,177.13ZM134,158.75v-129a7.78,7.78,0,0,1,15.22-2.26l37,122.22a6,6,0,0,0,1.5,2.5l15.93,15.94-36.28,34.74-25.79-25.79A25.83,25.83,0,0,1,134,158.75Zm91.42,34-32.69,32.69a2,2,0,0,1-2.83,0l-14-14,36.29-34.74,13.24,13.23A2,2,0,0,1,225.42,192.73Z"/></svg><h3 class="audience__title">Chaplains</h3><p>Material for time set aside midweek, beyond the matchday routine.</p></li>
+          <li><svg class="icon-duo audience__icon" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path class="i-tint" d="M224,152v64H184V128ZM32,216H72V128L32,152Z"/><path class="i-line" d="M227.09,146.86,190,124.6V104a6,6,0,0,0-3-5.21L134,68.52V46h18a6,6,0,0,0,0-12H134V16a6,6,0,0,0-12,0V34H104a6,6,0,0,0,0,12h18V68.52L69,98.79A6,6,0,0,0,66,104v20.6L28.91,146.86A6,6,0,0,0,26,152v64a6,6,0,0,0,6,6h80a6,6,0,0,0,6-6V168a10,10,0,0,1,20,0v48a6,6,0,0,0,6,6h80a6,6,0,0,0,6-6V152A6,6,0,0,0,227.09,146.86ZM38,155.4l28-16.8V210H38Zm90-9.4a22,22,0,0,0-22,22v42H78V107.48l50-28.57,50,28.57V210H150V168A22,22,0,0,0,128,146Zm90,64H190V138.6l28,16.8Z"/></svg><h3 class="audience__title">Church and youth groups</h3><p>Where football is already part of your group’s life, a focused way to explore faith through it.</p></li>
         </ul>
       </div>
     </section>
@@ -426,7 +438,7 @@
       <div class="wrap taste__inner">
         <h2 class="eyebrow eyebrow--folio eyebrow--centre" id="taste-title"><span class="eyebrow__num">04</span>A taste of the conversation</h2>
         <figure class="taste__figure" data-reveal>
-          <blockquote class="taste__quote"><p>“If football was taken away from you tomorrow, who would you be?”</p></blockquote>
+          <blockquote class="taste__quote"><p data-read>“If football was taken away from you tomorrow, who would you be?”</p></blockquote>
           <figcaption class="taste__cite">An opening question from Session 1, Identity</figcaption>
         </figure>
       </div>
@@ -442,12 +454,27 @@
       </div>
       <div class="book__stage">
         <figure class="book-mockup" data-parallax-self="-0.05">
-          <div class="book-mockup__object">
-            <picture>
-              <source type="image/webp" srcset="assets/img/book-cover-480.webp 480w, assets/img/book-cover-760.webp 760w, assets/img/book-cover-1056.webp 1056w" sizes="(min-width: 1440px) 460px, (min-width: 768px) 32vw, 68vw">
-              <img src="assets/img/book-cover-760.jpg" srcset="assets/img/book-cover-480.jpg 480w, assets/img/book-cover-760.jpg 760w, assets/img/book-cover-1056.jpg 1056w" sizes="(min-width: 1440px) 460px, (min-width: 768px) 32vw, 68vw" width="1056" height="1500" alt="The Playing with Purpose course book by Nigel Pascoe." loading="lazy" decoding="async">
-            </picture>
-          </div>
+          <!-- Opens to the Session 1 spread (site.js, "The course book"). Without JavaScript it stays a still cover. -->
+          <button class="book-mockup__object" type="button" data-book aria-expanded="false" aria-label="Open the course book to look inside">
+            <span class="book3d" data-book-3d>
+              <span class="book3d__glow" data-book-glow></span>
+              <span class="book3d__shadow" data-book-shadow-closed></span>
+              <span class="book3d__block"></span>
+              <span class="book3d__page book3d__page--right" data-book-right><span class="book3d__cast"></span></span>
+              <span class="book3d__page book3d__page--left" data-book-left><span class="book3d__cast"></span></span>
+              <span class="book3d__cover" data-book-cover>
+                <span class="book3d__face book3d__face--front">
+                  <picture>
+                    <source type="image/webp" srcset="assets/img/book-cover-480.webp 480w, assets/img/book-cover-760.webp 760w, assets/img/book-cover-1056.webp 1056w" sizes="(min-width: 1440px) 460px, (min-width: 768px) 32vw, 68vw">
+                    <img src="assets/img/book-cover-760.jpg" srcset="assets/img/book-cover-480.jpg 480w, assets/img/book-cover-760.jpg 760w, assets/img/book-cover-1056.jpg 1056w" sizes="(min-width: 1440px) 460px, (min-width: 768px) 32vw, 68vw" width="1056" height="1500" alt="The Playing with Purpose course book by Nigel Pascoe." loading="lazy" decoding="async">
+                  </picture>
+                </span>
+                <span class="book3d__face book3d__face--back"></span>
+              </span>
+            </span>
+          </button>
+          <p class="visually-hidden" role="status" data-book-status></p>
+          <figcaption class="book-hint" aria-hidden="true"><svg class="book-hint__icon" viewBox="0 0 256 256" focusable="false"><path d="M232,50H160a38,38,0,0,0-32,17.55A38,38,0,0,0,96,50H24a6,6,0,0,0-6,6V200a6,6,0,0,0,6,6H96a26,26,0,0,1,26,26,6,6,0,0,0,12,0,26,26,0,0,1,26-26h72a6,6,0,0,0,6-6V56A6,6,0,0,0,232,50ZM96,194H30V62H96a26,26,0,0,1,26,26V204.31A37.86,37.86,0,0,0,96,194Zm130,0H160a37.87,37.87,0,0,0-26,10.32V88a26,26,0,0,1,26-26h66Z"/></svg><span data-book-hint>Open the book</span></figcaption>
         </figure>
       </div>
       <div class="wrap book__body">
@@ -491,7 +518,7 @@
           <p>Nigel has a passion for helping people explore identity, purpose and faith. For many years he has walked alongside people through life’s opportunities, pressures and transitions, and he is the founder of the football charity Goal50, which supports township communities in Cape Town, South Africa. Playing with Purpose brings that passion into the shared language of football.</p>
           <a class="link-arrow link-arrow--right" href="about/">More about Nigel <svg class="link-arrow__icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8.5 3.5 13 8l-4.5 4.5"/></svg></a>
           <figure class="foreword">
-            <blockquote class="foreword__quote"><p>“It is about discovering a foundation that remains steady regardless of results, form, selection, injury or circumstance.”</p></blockquote>
+            <blockquote class="foreword__quote"><p data-read>“It is about discovering a foundation that remains steady regardless of results, form, selection, injury or circumstance.”</p></blockquote>
             <figcaption class="foreword__cite"><strong>Arthur Goode</strong>, from the foreword · Lead Pastor, Plymouth Vineyard Church; Chaplain, Plymouth Argyle FC</figcaption>
           </figure>
         </div>
@@ -541,7 +568,7 @@
     </div>
     <div class="wrap site-footer__legal">
       <p>© 2026 Nigel Pascoe · <a href="mailto:nigel@nigelpascoe.com">nigel@nigelpascoe.com</a></p>
-      <p>Scripture quotations NIV. Imagery: illustrations from the course book.</p>
+      <p>Scripture quotations NIV. Imagery: illustrations from the course book, and an animated version of its cover scene.</p>
     </div>
   </footer>
 
