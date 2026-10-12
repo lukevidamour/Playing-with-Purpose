@@ -32,9 +32,9 @@
   <link rel="preload" href="assets/fonts/poppins-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" as="image" type="image/webp" href="assets/img/hero-video-poster-1600.webp" imagesrcset="assets/img/hero-video-poster-960.webp 960w, assets/img/hero-video-poster-1600.webp 1600w, assets/img/hero-video-poster-1920.webp 1920w" imagesizes="100vw" media="(min-width: 768px) and (orientation: landscape)" fetchpriority="high">
-  <link rel="preload" as="image" type="image/webp" href="assets/img/hero-banner-1600.webp" imagesrcset="assets/img/hero-banner-960.webp 960w, assets/img/hero-banner-1600.webp 1600w, assets/img/hero-banner-2400.webp 2400w" imagesizes="100vw" media="(min-width: 768px) and (orientation: portrait)" fetchpriority="high">
-  <link rel="preload" as="image" type="image/webp" href="assets/img/hero-cover-portrait-1054.webp" imagesrcset="assets/img/hero-cover-portrait-640.webp 640w, assets/img/hero-cover-portrait-1054.webp 1054w" imagesizes="100vw" media="(max-width: 767.98px)" fetchpriority="high">
-  <link rel="stylesheet" href="assets/css/site.css?v=11">
+  <link rel="preload" as="image" type="image/webp" href="assets/img/hero-banner-1600.webp" imagesrcset="assets/img/hero-banner-960.webp 960w, assets/img/hero-banner-1600.webp 1600w, assets/img/hero-banner-2400.webp 2400w" imagesizes="100vw" media="(min-width: 1200px) and (orientation: portrait)" fetchpriority="high">
+  <link rel="preload" as="image" type="image/webp" href="assets/img/hero-cover-portrait-1054.webp" imagesrcset="assets/img/hero-cover-portrait-640.webp 640w, assets/img/hero-cover-portrait-1054.webp 1054w" imagesizes="100vw" media="(max-width: 767.98px), (orientation: portrait) and (max-width: 1199.98px)" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/site.css?v=13">
   <script>document.documentElement.classList.add('js')</script>
   <script src="assets/js/vendor/lenis.min.js?v=1.3.26" defer></script>
   <script src="assets/js/site.js?v=7" defer></script>
@@ -62,7 +62,7 @@
             <li><a class="site-nav__link" href="about/">About Nigel</a></li>
             <li class="site-nav__cta-item"><a class="btn btn--gold btn--small" href="contact/">Get in touch</a></li>
           </ul>
-          <p class="site-nav__email">Or email <a href="mailto:nigel@nigelpascoe.com">nigel@nigelpascoe.com</a></p>
+          <p class="site-nav__email"><span class="site-nav__email-label">Email</span> <a href="mailto:nigel@nigelpascoe.com">nigel@nigelpascoe.com</a></p>
         </div>
       </nav>
     </div>
@@ -75,8 +75,8 @@
       <div class="hero__media" data-hero-media>
         <div class="hero__frame">
           <picture>
-            <source media="(max-width: 767.98px)" type="image/webp" srcset="assets/img/hero-cover-portrait-640.webp 640w, assets/img/hero-cover-portrait-1054.webp 1054w" sizes="100vw">
-            <source media="(max-width: 767.98px)" srcset="assets/img/hero-cover-portrait-640.jpg 640w, assets/img/hero-cover-portrait-1054.jpg 1054w" sizes="100vw">
+            <source media="(max-width: 767.98px), (orientation: portrait) and (max-width: 1199.98px)" type="image/webp" srcset="assets/img/hero-cover-portrait-640.webp 640w, assets/img/hero-cover-portrait-1054.webp 1054w" sizes="100vw">
+            <source media="(max-width: 767.98px), (orientation: portrait) and (max-width: 1199.98px)" srcset="assets/img/hero-cover-portrait-640.jpg 640w, assets/img/hero-cover-portrait-1054.jpg 1054w" sizes="100vw">
             <source media="(orientation: portrait)" type="image/webp" srcset="assets/img/hero-banner-960.webp 960w, assets/img/hero-banner-1600.webp 1600w, assets/img/hero-banner-2400.webp 2400w" sizes="100vw">
             <source media="(orientation: portrait)" srcset="assets/img/hero-banner-960.jpg 960w, assets/img/hero-banner-1600.jpg 1600w, assets/img/hero-banner-2400.jpg 2400w" sizes="100vw">
             <source type="image/webp" srcset="assets/img/hero-video-poster-960.webp 960w, assets/img/hero-video-poster-1600.webp 1600w, assets/img/hero-video-poster-1920.webp 1920w" sizes="100vw">
@@ -134,8 +134,8 @@
     <section class="who" aria-labelledby="who-title">
       <div class="who__band" data-parallax="0.08">
         <picture>
-          <source type="image/webp" srcset="assets/img/coach-conversation-960.webp 960w, assets/img/coach-conversation-1500.webp 1500w, assets/img/coach-conversation-2100.webp 2100w" sizes="100vw">
-          <img src="assets/img/coach-conversation-1500.jpg" srcset="assets/img/coach-conversation-960.jpg 960w, assets/img/coach-conversation-1500.jpg 1500w, assets/img/coach-conversation-2100.jpg 2100w" sizes="100vw" width="2100" height="749" alt="A coach crouches on the training pitch, talking with a small group of players in green kit." loading="lazy" decoding="async">
+          <source type="image/webp" srcset="assets/img/coach-conversation-960.webp 960w, assets/img/coach-conversation-1500.webp 1500w, assets/img/coach-conversation-2100.webp 2100w" sizes="(max-width: 1023px) 300vw, 150vw">
+          <img src="assets/img/coach-conversation-1500.jpg" srcset="assets/img/coach-conversation-960.jpg 960w, assets/img/coach-conversation-1500.jpg 1500w, assets/img/coach-conversation-2100.jpg 2100w" sizes="(max-width: 1023px) 300vw, 150vw" width="2100" height="749" alt="A coach crouches on the training pitch, talking with a small group of players in green kit." loading="lazy" decoding="async">
         </picture>
         <div class="who__band-text wrap">
           <p class="eyebrow eyebrow--folio"><span class="eyebrow__num">02</span>Who it’s for</p>
@@ -514,7 +514,7 @@
         <div class="nigel__text">
           <p class="eyebrow eyebrow--folio"><span class="eyebrow__num">06</span>Written by</p>
           <h2 class="h-section" id="nigel-title" data-reveal>Nigel Pascoe</h2>
-          <p class="nigel__role">Pastoral coach, speaker and writer · Guernsey, Channel Islands</p>
+          <p class="nigel__role">Pastoral coach, speaker and writer<span class="nigel__sep" aria-hidden="true"> · </span><span class="nigel__place">Guernsey, Channel Islands</span></p>
           <p>Nigel has a passion for helping people explore identity, purpose and faith. For many years he has walked alongside people through life’s opportunities, pressures and transitions, and he is the founder of the football charity Goal50, which supports township communities in Cape Town, South Africa. Playing with Purpose brings that passion into the shared language of football.</p>
           <a class="link-arrow link-arrow--right" href="about/">More about Nigel <svg class="link-arrow__icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8.5 3.5 13 8l-4.5 4.5"/></svg></a>
           <figure class="foreword">
@@ -529,8 +529,8 @@
     <section class="closing theme-dark" aria-labelledby="closing-title">
       <div class="closing__media" aria-hidden="true" data-parallax="0.1">
         <picture>
-          <source type="image/webp" srcset="assets/img/closing-touchline-960.webp 960w, assets/img/closing-touchline-1600.webp 1600w, assets/img/closing-touchline-2400.webp 2400w" sizes="100vw">
-          <img src="assets/img/closing-touchline-1600.jpg" srcset="assets/img/closing-touchline-960.jpg 960w, assets/img/closing-touchline-1600.jpg 1600w, assets/img/closing-touchline-2400.jpg 2400w" sizes="100vw" width="2400" height="1397" alt="" loading="lazy" decoding="async">
+          <source type="image/webp" srcset="assets/img/closing-touchline-960.webp 960w, assets/img/closing-touchline-1600.webp 1600w, assets/img/closing-touchline-2400.webp 2400w" sizes="(max-width: 1023px) 300vw, 115vw">
+          <img src="assets/img/closing-touchline-1600.jpg" srcset="assets/img/closing-touchline-960.jpg 960w, assets/img/closing-touchline-1600.jpg 1600w, assets/img/closing-touchline-2400.jpg 2400w" sizes="(max-width: 1023px) 300vw, 115vw" width="2400" height="1397" alt="" loading="lazy" decoding="async">
         </picture>
       </div>
       <div class="wrap closing__inner">
