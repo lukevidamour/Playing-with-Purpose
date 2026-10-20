@@ -291,7 +291,7 @@
     };
     var easeCover = bezier(.6, 0, .22, 1), easePage = bezier(.5, 0, .24, 1);
     var phase = function (from, length) { return clamp((t - from) / length, 0, 1); };
-    var src = function (n) { return 'assets/img/book-page-0' + n + '-' + size + '.webp'; };
+    var src = function (n) { return 'assets/img/book-page-0' + n + '-' + size + '.webp?v=2'; };
     var bg = function (n) { return 'url("' + src(n) + '")'; };
 
     function measure() {
